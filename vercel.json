@@ -1,15 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/analiza.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/analiza",
-      "dest": "api/analiza.js"
-    }
-  ]
+  "version": 2
 }
