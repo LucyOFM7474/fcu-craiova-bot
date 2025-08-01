@@ -33,7 +33,7 @@ Formatul analizei trebuie să fie detaliat și organizat pe puncte:
 10. Recomandări pariuri (inclusiv cotă/sursă)`;
 
     const completion = await openai.chat.completions.create({
-      model: model: "gpt-4o",
+      model: model: model: "gpt-3.5-turbo",
       messages: [{ role: "user", content: promptText }],
     });
 
