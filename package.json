@@ -1,8 +1,16 @@
-{ 
-  
+{
   "name": "fcu-craiova-bot",
   "version": "1.0.0",
+  "description": "Generator de analize meciuri AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "express": "^4.18.2",
     "openai": "^4.0.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
